@@ -4,6 +4,9 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
+require("jquery")
+require("jquery_ujs")
+require("twitter-bootstrap-rails")
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
